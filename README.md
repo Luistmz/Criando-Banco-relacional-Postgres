@@ -25,9 +25,9 @@ create database ed;
 \q volta ao terminal do linux
 \dt lista de tabelas
 
-BEGIN - transação aberta
-commit
-ROLLBACK -desfaz a ultima transação sem commit
+- BEGIN - transação aberta
+- commit
+- ROLLBACK -desfaz a ultima transação sem commit
 
 
 ### Schema da tabela ###
