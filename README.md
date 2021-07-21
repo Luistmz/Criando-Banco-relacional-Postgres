@@ -1,4 +1,4 @@
-# comandos para interagir com o Postgres #
+# C omandos para interagir com o Postgres #
 
 ### Logar no postgres ###
 sudo -u postgres psql 
@@ -23,5 +23,12 @@ create database ed;
 
 ### Outros comandos ###
 \q volta ao terminal do linux
+\dt lista de tabelas
 
+BEGIN - transação aberta
+commit
+ROLLBACK -desfaz a ultima transação sem commit
+
+
+### Schema da tabela ###
 ![Screenshot](relacional.png)
